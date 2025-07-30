@@ -48,7 +48,6 @@ header {
   padding-right: 30%;
 }
 
-#hlshover,
 #hlphover,
 #hlchover {
   width: 100%;
@@ -56,6 +55,14 @@ header {
   border-radius: 5px;
   background-color: #2196f3;
   opacity: 0%;
+}
+
+#hlshover, #hlshover2{
+  width: 100%;
+  height: 4px;
+  border-radius: 5px;
+  background-color: #2196f3;
+  transition-duration: 1s;
 }
 
 .header-links {
@@ -74,12 +81,9 @@ header {
 }
 
 .header-links {
-
-  #hlstudio:hover,
   #hlportfolio:hover,
   #hlcontacts:hover {
 
-    #hlshover,
     #hlphover,
     #hlchover {
       opacity: 100%;
@@ -97,5 +101,26 @@ header {
 .header-inf {
   a:hover {
     color: #2196f3;
+  }
+}
+
+#hlshover2, #hlchover {
+  width: 100%;
+  height: 4px;
+  border-radius: 5px;
+  background-color: #2196f3;
+  opacity: 0%;
+}
+
+#hlphover2 {
+  width: 100%;
+  height: 4px;
+  border-radius: 5px;
+  background-color: #2196f3;
+}
+
+#hlstudio:hover {
+  #hlshover2 {
+    opacity: 100%;
   }
 }

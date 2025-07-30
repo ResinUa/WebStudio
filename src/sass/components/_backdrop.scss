@@ -1,0 +1,92 @@
+@use "./../utlits/colors";
+
+.backdrop {
+    background-color: rgba($color: #000000, $alpha: 0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+
+    h2 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .btn-close-stuff {
+        margin-left: 480px;
+        margin-bottom: 40px;
+        margin-top: 4px;
+
+        button {
+            width: 30px;
+            height: 30px;
+        }
+    }
+}
+
+.backdrop-content {
+    background-color: #ffffff;
+    width: 528px;
+    height: 581px;
+    margin-top: 10%;
+}
+
+h2 {
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    color: #757575;
+    font-size: 12px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+   .fdiv {
+            input {
+            width: 448px;
+        }
+        margin-left: 40px;
+        textarea {
+            width: 448px;
+        }
+   }
+    .bfn,
+    .bft,
+    .bfm,
+    .bfc {
+        display: flex;
+        margin-top: 10px;
+        flex-direction: column;
+    }
+}
+
+.bfsb {
+        display: flex;
+        justify-content: center;
+        margin-left: -40px;
+    button {
+        height: 50px;
+        width: 216px;
+        background-color: #2196F3;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        font-weight: bold;
+        color: #ffffff;
+        margin-top: 40px;
+    }
+}
+
+.bftextnobodyreads {
+    color: #757575;
+    font-size: 12px;
+    margin-top: 20px;
+    height: 24px;
+    width: 425px;
+}
+
