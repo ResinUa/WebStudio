@@ -480,6 +480,11 @@ header {
   background-color: #2196F3;
 }
 
+.backdrop.is-hidden {
+  opacity: 0;
+  z-index: -1;
+}
+
 .backdrop {
   background-color: rgba(0, 0, 0, 0.5);
   width: 100%;
@@ -509,7 +514,7 @@ header {
   margin-top: 10%;
 }
 
-h2 {
+.formstuff h2 {
   text-transform: capitalize;
   display: flex;
   justify-content: center;
@@ -564,7 +569,13 @@ form .bfc {
   font-size: 12px;
   margin-top: 20px;
   height: 24px;
-  width: 425px;
+  width: 100%;
+  display: flex;
+  text-align: center;
+}
+.bftextnobodyreads #bfbfti {
+  width: 15px;
+  margin-right: 10px;
 }
 
 * {

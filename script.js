@@ -1,4 +1,5 @@
 const openModalBtn = document.querySelector('.btn-open');
+console.log(openModalBtn);
 const closeModalBtn = document.querySelector('.btn-close');
 const backdrop = document.querySelector('.backdrop');
 
